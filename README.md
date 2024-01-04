@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Student Marks Management Application</title>
-</head>
 
 <body>
 

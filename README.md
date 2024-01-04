@@ -1,23 +1,45 @@
-Student Marks Management Application
-This Java application, developed in NetBeans, facilitates the management of student marks using linked lists and follows the Model-View-Controller (MVC) architecture. The application includes various forms for adding, deleting, updating, viewing, and searching student records. Below is an overview of the project structure and instructions on how to run the application.
+<!DOCTYPE html>
+<html>
 
-Project Structure
-Controller:
+<head>
+  <title>Student Marks Management Application</title>
+</head>
 
-StudentController.java: Manages user interactions, handling input from the View and updating the Model accordingly.
-DB (Database):
+<body>
 
-DBConnection.java: Singleton class managing the database connection.
-StudentDB.java: Manages student records using a linked list structure.
-StudentList.java: Implements linked lists for efficient student object management.
-Model:
+  <h1>Student Marks Management Application</h1>
 
-Student.java: Defines the structure of a student, including attributes like name, ID, and marks.
-View:
+  <p>This Java application, developed in NetBeans, facilitates the management of student marks using linked lists and follows the Model-View-Controller (MVC) architecture. The application includes various forms for adding, deleting, updating, viewing, and searching student records.</p>
 
-Forms for:
-AddStudentForm.java: Adds a new student record.
-DeleteStudentForm.java: Deletes an existing student record.
-UpdateStudentForm.java: Updates details of an existing student.
-ViewStudentsForm.java: Displays a list of all student records.
-SearchStudentForm.java: Searches for a speci
+  <h2>Project Structure</h2>
+
+  <h3>Controller:</h3>
+  <ul>
+    <li><code>StudentController.java</code>: Manages user interactions, handling input from the View and updating the Model accordingly.</li>
+  </ul>
+
+  <h3>DB (Database):</h3>
+  <ul>
+    <li><code>DBConnection.java</code>: Singleton class managing the database connection.</li>
+    <li><code>StudentDB.java</code>: Manages student records using a linked list structure.</li>
+    <li><code>StudentList.java</code>: Implements linked lists for efficient student object management.</li>
+  </ul>
+
+  <h3>Model:</h3>
+  <ul>
+    <li><code>Student.java</code>: Defines the structure of a student, including attributes like name, ID, and marks.</li>
+  </ul>
+
+  <h3>View:</h3>
+  <p>Forms for:</p>
+  <ul>
+    <li><code>AddStudentForm.java</code>: Adds a new student record.</li>
+    <li><code>DeleteStudentForm.java</code>: Deletes an existing student record.</li>
+    <li><code>UpdateStudentForm.java</code>: Updates details of an existing student.</li>
+    <li><code>ViewStudentsForm.java</code>: Displays a list of all student records.</li>
+    <li><code>SearchStudentForm.java</code>: Searches for a specific student record.</li>
+  </ul>
+
+</body>
+
+</html>
